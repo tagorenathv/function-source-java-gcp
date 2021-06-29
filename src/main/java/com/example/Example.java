@@ -74,9 +74,9 @@ public class Example implements BackgroundFunction<GCSEvent> {
         try (SecretManagerServiceClient client = SecretManagerServiceClient.create()) {
 
             if (trueCount > falseCount) {
-                printPayload(projectId, trueCount, falseCount, client, "secretId1", "secretId2");
+                printPayload(projectId, trueCount, falseCount, client, "secretkey1", "secretkey2");
             } else {
-                printPayload(projectId, falseCount, trueCount, client, "secretId2", "secretId1");
+                printPayload(projectId, falseCount, trueCount, client, "secretkey2", "secretkey1");
             }
         } catch (Exception e) {
             e.printStackTrace();
