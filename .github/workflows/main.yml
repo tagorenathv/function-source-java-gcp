@@ -69,6 +69,6 @@ jobs:
           # Specifies which action should trigger the function.
           event_trigger_type: providers/cloud.storage/eventTypes/object.finalize
           # Specifies which resource from eventTrigger is observed.
-          # event_trigger_resource: projects/_/buckets/my-bucket/objects/*
+          event_trigger_resource: projects/_/buckets/csv-input-22062021/objects/*
           # The hostname of the service that should be observed.
           # event_trigger_service: # optional
