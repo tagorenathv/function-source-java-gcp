@@ -45,4 +45,4 @@ jobs:
           # Specifies which action should trigger the function.
           event_trigger_type: providers/cloud.storage/eventTypes/object.finalize
           # Specifies which resource from eventTrigger is observed.
-          event_trigger_resource: projects/_/buckets/csv-input-22062021/objects/*
+          event_trigger_resource: csv-input-22062021
