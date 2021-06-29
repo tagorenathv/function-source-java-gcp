@@ -51,7 +51,7 @@ jobs:
           # Region to deploy the function in. Defaults to us-central1, if not specified.
           region: us-central1
           # Path to function deployment directory within the source repo.
-          source_dir: src
+          #source_dir: src
           # List of key-value pairs to set as environment variables in the form KEY1=VALUE1,KEY2=VALUE2.
           #env_vars: # optional
           # Name of a function (as defined in source code) that will be executed. Defaults to the resource name suffix, if not specified. 
