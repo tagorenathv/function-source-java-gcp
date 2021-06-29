@@ -41,7 +41,7 @@ jobs:
         # uses: google-github-actions/deploy-cloud-functions@7faa962492ec7b650406d15004fc19c6880f94d0
         uses: google-github-actions/deploy-cloud-functions@v0.1.2
         with:
-          credentials: # optional
+          credentials: 0db4818ce0203a4662b5e9c61bdf89fd6e7f91ed
           # Name of the Cloud Function.
           name: cf-java-gha-test
           # Description for the Cloud Function.
